@@ -1,0 +1,53 @@
+/* || General Rules */
+
+* {
+    box-sizing: border-box;
+}
+
+p {
+    text-align: justify;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+/* || Navbar */
+
+#navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 0px 3px 0px rgb(65, 59, 59), 5px 0px 5px 2px darkgray;
+}
+
+#navbar header {
+    background-color: #2980B9;
+    color: white;
+    height: 15%;
+    text-align: center;
+}
+
+#navbar ul {
+    margin: 0;
+    background-color: #E3E3E3;
+    height: 85%;
+    list-style: none;
+    padding-left: 0;
+}
+
+#navbar ul li {
+    margin: 20px;
+}
+
+/* Main doc */
+
+#main-doc {
+    margin-left: 300px;
+    margin-right: 50px;
+}
