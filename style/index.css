@@ -2,6 +2,7 @@
 
 * {
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
 }
 
 p {
@@ -24,25 +25,29 @@ a {
     display: flex;
     flex-direction: column;
     box-shadow: 1px 0px 3px 0px rgb(65, 59, 59), 5px 0px 5px 2px darkgray;
+    overflow-y: auto;
+    background-color: #E3E3E3;
 }
 
 #navbar header {
     background-color: #2980B9;
     color: white;
-    height: 15%;
     text-align: center;
 }
 
+#navbar header h1 {
+    margin: 30px;
+}
 #navbar ul {
     margin: 0;
-    background-color: #E3E3E3;
-    height: 85%;
     list-style: none;
     padding-left: 0;
 }
 
 #navbar ul li {
-    margin: 20px;
+    margin: 20px 20px 0px 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid gray;
 }
 
 /* Main doc */
@@ -50,4 +55,22 @@ a {
 #main-doc {
     margin-left: 300px;
     margin-right: 50px;
+}
+
+@media screen and (orientation: portrait) {
+    #navbar {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: unset;
+        display: flex;
+        flex-direction: column;
+        box-shadow: 1px 0px 3px 0px rgb(65, 59, 59), 5px 0px 5px 2px darkgray;
+        overflow-y: hidden;
+    }
+
+    #main-doc {
+        margin: 600px 20px 20px 20px;
+    }
 }
