@@ -1,2 +1,4 @@
-# fcc-Build-a-Technical-Documentation-Page
-fcc Responsive Web Design Project
+# fcc Build a Technical Documentation Page
+4th freecodecamp Responsive Web Design Project
+
+Link: https://kenzoi.github.io/fcc-Build-a-Technical-Documentation-Page
